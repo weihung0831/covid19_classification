@@ -65,8 +65,6 @@ def training(
 
 
 def main():
-    # process_data()
-
     data = np.load(file="./COVID-19_Radiography_Dataset/data.npz")
     x_train, x_val, y_train, y_val = (
         data["train_img"],
